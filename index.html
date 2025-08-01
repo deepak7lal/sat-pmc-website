@@ -4,14 +4,13 @@
   <meta charset="UTF-8">
   <title>SAT Project Management Consultants</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Link to the external CSS file -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
-  <img src="f.png"class="logo" />
+  <img src="f.png" class="logo" />
   <h1>SAT Project Management Consultants</h1>
-  <p>Precision in Planning, Perfection in Delivery</p>
+  <p class="ba">Precision in Planning, Perfection in Delivery</p>
 </header>
 <nav>
   <a href="#home" class="active" onclick="activateSection('home')">Home</a>
@@ -24,16 +23,31 @@
 <main>
   <!-- HOME -->
   <section class="section active" id="home">
-    <div class="features">
-      <div>SUPREMACY &<br>EXCEPTIONABLE</div>
-      <div>TIME BOUND &<br>QUALITY</div>
-      <div>COST EFFECTIVE</div>
+    <div id="sideBar">
+    <p class="ka">Our Core Expertise</p>
+      <ul>
+        <li>Planning Scheduling and Monitoring</li>
+        <li>Quantity survey budgeting & contract management</li>
+        <li>Project Monitoring & Cost control measures</li>
+        <li>Project costing analysis</li>
+        <li>Project and construction management</li>
+        <li>Arbitration and Dispute management</li>
+        <li>APC Pre bid services and entering</li>
+        <li>Extension of time & WBS creations</li>
+        <li>Project feasibility studies</li>
+      </ul>
     </div>
-    <div class="home-image">
-      <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80" alt="Construction Site">
-    </div>
-    <div class="home-intro">
-      Established by skilled and experienced engineers & managers with exposure to national and international projects, <b>SATPMC</b> delivers the complete range of professionals, technical & support services in <b>Engineering, Construction & Project Management</b> — each project customized to your objectives.
+  </section>
+    <div class="home-header">
+      <div class="features">
+        <div>SUPREMACY &<br>EXCEPTIONABLE</div>
+        <div>TIME BOUND &<br>QUALITY</div>
+        <div>COST EFFECTIVE</div>
+      </div>
+      <div class="home-image">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80" alt="Construction Site">
+        <h3>Established by skilled and experienced engineers & managers with exposure to national and international projects, <b>SATPMC</b> delivers the complete range of professionals, technical & support services in <b>Engineering, Construction & Project Management</b> — each project customized to your objectives.</h3>
+      </div>
     </div>
   </section>
   
@@ -65,10 +79,9 @@
     </div>
     <h2>Our Core Team</h2>
     <div class="card-list">
-      <!-- Team members --><!-- YOU CAN REPLACE THESE IMG URLs WITH ACTUAL PHOTOS IF AVAILABLE -->
       <div class="card">
         <img src="r.png.png" alt="">
-        <b>Rakhi R.</b><br>Technical Director (Civil)<br>
+        <b>Er.Rakhi R.</b><br>Technical Director (Civil)<br>
         <span>B Tech Civil + MBA, 21+ yrs: Infopark Athulya, Aster Medcity, Gold Tower, Prestige Hill Side Gateway</span>
       </div>
       <div class="card">
@@ -92,18 +105,18 @@
         <span>Cost & financial consultancy, company registration, construction finance</span>
       </div>
       <div class="card">
-        <img src=" alt="">
-        <b>Mrs. Kukku Joseph</b><br>Associate Architect<br>
+        <img src="kukku.png.png" alt="">
+        <b>Er. Kukku Joseph</b><br>Associate Architect<br>
         <span>15+ yrs, apts, villas, multistorey design</span>
       </div>
       <div class="card">
-        <img src=alt="">
-        <b>Mr. Harisankar</b><br>Structural Consultant<br>
+        <img src="harisankar.png.png" alt="">
+        <b>Er. Harisankar</b><br>Structural Consultant<br>
         <span>10+ yrs, M-Tech Structures</span>
       </div>
       <div class="card">
-        <img src=" alt="">
-        <b>Mr. Amjath Mohammed</b><br>Quality Management<br>
+        <img src="amjath.png.png" alt="">
+        <b>Er. Amjath Mohammed</b><br>Quality Management<br>
         <span>B-Tech Civil + PGDM (NICMAR), QA/QC</span>
       </div>
     </div>
@@ -116,6 +129,7 @@
       <div>
         <h3>Service Lines</h3>
         <ul>
+          <li>Expertise in Government related project scheduling works like KIIFB, HITES, WAPCOS, KSITIL.</li>
           <li>Base Building & Interiors (Govt aided, private, third party)</li>
           <li>Project Management & Advisory</li>
           <li>Technical Due Diligence, Audit, Monitoring</li>
@@ -139,6 +153,7 @@
         </ul>
         <h3>Project Phases/Expertise</h3>
         <ol>
+          <li>Detailed Project Report Preparation</li>
           <li>Feasibility & Client Brief</li>
           <li>Technical Investigation/Due Diligence</li>
           <li>Statutory Approvals</li>
@@ -187,59 +202,27 @@
     <h2>Our major projects</h2>
     <div class="clients-logo">
       <img src="lulu.png" alt="Lulu">
-      <img src="inf.png.png" alt="Infopark"  >
+      <img src="inf.png.png" alt="Infopark">
       <img src="a.png.png" alt="Aster">
-      <img src="MARKET.jpg"CCPL">
-      <img src="go.png"Prestige">
+      <img src="MARKET.jpg" alt="CCPL">
+      <img src="go.png" alt="Prestige">
     </div>
     <h2>Completed Projects (Core Team)</h2>
-    <!--<div class="table-responsive">
-      <table>
-        <tr>
-          <th>Client</th><th>Project</th><th>Location</th><th>Service</th><th>Class</th><th>Cost</th><th>Status</th>
-        </tr>
-        <tr><td>Kristal Group</td><td>G+3 Building</td><td>Yemari, Bangalore</td><td>PMC</td><td>Residential</td><td>2.8cr</td><td>Completed</td></tr>
-        <tr><td>Kristal Group</td><td>B+G+10 Storey</td><td>Ambalipura, Bangalore</td><td>PMC</td><td>Residential</td><td>18cr</td><td>Completed</td></tr>
-        <tr><td>M/S Inner spaces</td><td>G+1 Villa</td><td>Kasavanahalli, Bangalore</td><td>Supervisory</td><td>Residential</td><td>2.5cr</td><td>Completed</td></tr>
-        <tr><td>Mr. Rajasekhar Reddy</td><td>G+2 Building</td><td>Koramangala, Bangalore</td><td>Supervisory</td><td>Residential</td><td>1.5cr</td><td>Completed</td></tr>
-        <tr><td>Mr. Jagadeesh Reddy</td><td>B+G+7 Commercial</td><td>Kaikondranahalli, Bangalore</td><td>Supervisory</td><td>Commercial</td><td>3cr</td><td>Completed</td></tr>
-        <tr><td>Mr. Babu Reddy</td><td>G+1 x10 villas</td><td>Hosa road, Bangalore</td><td>Supervisory</td><td>Residential</td><td>8cr</td><td>Completed</td></tr>
-        <tr><td>Prathibha Industries</td><td>3B+G+30</td><td>Hyderabad</td><td>PM Coord.</td><td>Commercial</td><td>185cr</td><td>Completed</td></tr>
-        <tr><td>Mac Infra</td><td>2B+G+22</td><td>Bangalore</td><td>PMC</td><td>Commercial</td><td>28cr</td><td>Completed</td></tr>
-        <tr><td>Kristal Group</td><td>B+G+3/12/10/15</td><td>Sarjapura Road, Bangalore</td><td>Supervisory</td><td>Commercial</td><td>35cr</td><td>Completed</td></tr>
-        <tr><td>Souparnika Projects</td><td>B+G+17</td><td>Sarjapura, Bangalore</td><td>PM Coord.</td><td>Apartment</td><td>15cr</td><td>Completed</td></tr>
-        <tr><td>Kristal Group</td><td>50 acres villa</td><td>Sarjapura, Bangalore</td><td>Land Dev.</td><td>Residential</td><td>-</td><td>Completed</td></tr>
-        <tr><td>Kristal Group</td><td>7 acres villa</td><td>Yemari, Bangalore</td><td>Land Dev.</td><td>Residential</td><td>-</td><td>Completed</td></tr>
-        <tr><td>Kristal Group</td><td>35 acres villa</td><td>Anackal, Bangalore</td><td>Land Dev.</td><td>Residential</td><td>-</td><td>Completed</td></tr>
-      </table>
-    </div>-->
-    <h2>Ongoing Projects</h2>
-    <div class="table-responsive">
-      <table>
-        <tr>
-          <th>Client</th><th>Project</th><th>Location</th><th>Service</th><th>Class</th><th>Cost</th><th>Status</th>
-        </tr>
-        <tr><td>Commercial Complex, IT Firm</td><td>B+G+2</td><td>Kakkanad</td><td>PMC</td><td>Commercial</td><td>8cr</td><td>Started</td></tr>
-        <tr><td>Mr. Sivamohan</td><td>B+G+5</td><td>Ernakulam</td><td>Supervisory</td><td>Residential</td><td>25cr</td><td>Handing over</td></tr>
-        <tr><td>Market Complex, CCPL</td><td>2B+G+3</td><td>Ernakulam</td><td>PMC</td><td>Commercial</td><td>72cr</td><td>Completed</td></tr>
-        <tr><td>Lulu Mall, CCPL</td><td>B+G+2</td><td>Kottayam</td><td>PMC</td><td>Commercial</td><td>71cr</td><td>Completed</td></tr>
-       
-        <tr><td>Aluva, Kerala</td><td>PMC</td><td>Ernakulam</td><td>Supervisory</td><td>Res cum Comm</td><td>8cr</td><td>Structure completed</td></tr>
-      </table>
-      <h3>Main projects in kerala</h3>
-      <ul>
-        <li>Ernakulam Market Complex, CCPL – PMC, Scheduling, Monitoring, Cost Control</li>
-        <li>Lulu Mall Kottayam, CCPL – PMC, Scheduling, Monitoring, Cost Control</li>
-        <li>Commercial Complex, Support Stage IT, Kakkanad – PMC</li>
-        <li>Projects at Aduvassery & Desom (Aluva, Ernakulam) – PMC</li>
-        <li>Gold Tower, Ernakulam; Prestige Hillside Gateway,</li>
-        <li>Private Residences: Kollam, Mavelikkara – PMC</li>
-    </div>
-    <h3>Other Ongoing Projects Portfolio</h3>
+    <h3>Main projects in Kerala</h3>
     <ul>
-      <li>M/S KGA Group, Vytilla, Ernakulam – Cost consultancy</li>
-      <li>M/s Caspian TechPark, Kakkanad – Project management</li>
-      <li>MAFIL Group, Heather Constructions, Solid Structures, Pan Pacific Engineering, ITCS Project, KRK Projects, CCPL, GABION, EKK Infra, GM Engineers, Mark and Signs LLP, Skyline Riverside Apartment, Mr. Rinon (tourism), Mr. Eby Mathew (residential), Mr. Sreeprasad (commercial)</li>
+      <li>Ernakulam Market Complex, CCPL – PMC, Scheduling, Monitoring, Cost Control</li>
+      <li>Lulu Mall Kottayam, CCPL – PMC, Scheduling, Monitoring, Cost Control</li>
+      <li>Commercial Complex, Support Stage IT, Kakkanad – PMC</li>
+      <li>Projects at Aduvassery & Desom (Aluva, Ernakulam) – PMC</li>
+      <li>Gold Tower, Ernakulam; Prestige Hillside Gateway,</li>
+      <li>Private Residences: Kollam, Mavelikkara – PMC</li>
+    </ul>
+    <h3> Ongoing Projects Portfolio</h3>
+    <ul>
+      <li>Commercial Complex, IT firm - PMC Services</li>
+      <li>Heather Construction - Cost Consultancy</li>
+      <li>Vettoor Construction Engineers - Project Management</li>
+      <li>MAFIL Group, Solid Structures, Pan Pacific Engineering, ITCS Project, KGA Group, KRK Projects, CCPL, Caspian TechPark, GABION, EKK Infra, GM Engineers, Mark and Signs LLP, Skyline Riverside Apartment, Mr. Rinon (tourism), Mr. Eby Mathew (residential), Mr. Sreeprasad (commercial)</li>
     </ul>
   </section>
   
@@ -247,10 +230,9 @@
   <section class="section" id="clients">
     <h2>Our Clients</h2>
     <div class="clients-logos">
-      <img src="l.png.png">
-      
+      <img src="l.png.png" alt="Client 1">
+      <img src="heather.png.jpg" alt="Client 2">
     </div>
-    
     <h3>Training & Work History</h3>
     <ul>
       <li>Industrial Training: Govt Engineering College, Palakkad; Construction Equipment Industry</li>
@@ -295,21 +277,20 @@
   }
   // Contact Form
   function validateContactForm() {
-    var name=document.getElementById('name').value.trim(),
-        email=document.getElementById('email').value.trim(),
-        msg=document.getElementById('msg').value.trim(),
-        status=document.getElementById('formStatus');
-    if(!name||!email||!msg) {
-      status.textContent="Please fill all fields.";
-      status.style.color="yellow";
+    var name = document.getElementById('name').value.trim(),
+        email = document.getElementById('email').value.trim(),
+        msg = document.getElementById('msg').value.trim(),
+        status = document.getElementById('formStatus');
+    if (!name || !email || !msg) {
+      status.textContent = "Please fill all fields.";
+      status.style.color = "yellow";
     } else {
-      status.textContent="Thank you! We'll get in touch soon.";
-      status.style.color="#2cf57c";
-      setTimeout(()=>{status.textContent="";}, 4000);
+      status.textContent = "Thank you! We'll get in touch soon.";
+      status.style.color = "#2cf57c";
+      setTimeout(() => { status.textContent = ""; }, 4000);
       document.getElementById('contactForm').reset();
     }
     return false;
   }
 </script>
 </body>
-</html>
