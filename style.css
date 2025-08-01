@@ -1,12 +1,12 @@
 :root {
-  --main: #25a399;
+  --main: #8a2a5f;
   --accent: #fbba33;
   --light: #f6fbff;
 }
 body { margin: 0; font-family: 'Segoe UI', Arial, sans-serif; background: var(--light); color:black; }
 header {
-  background: linear-gradient(rgba(74, 106, 150, 0.95),rgba(30,55,90,0.5)), url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80') center/cover;
-  color: #fff; text-align: center; padding: 3.5em 1em 2.5em 1em;
+  background:  url('https://images.unsplash.com/photo-1429497419816-9ca5cfb4571a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzV8fHByb2plY3QlMjBtYW5hZ2VtZW50fGVufDB8fDB8fHwwauto=format&fit=crop&w=1300&q=1300') center/cover;
+  color: black; text-align: center; padding: 3.5em 1em 2.5em 1em;font-size: xx-large;font-weight: 800;
 }
 header img.logo { width:180px;border-radius:8px; box-shadow:0 2px px #0005;  }
 
