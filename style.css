@@ -60,41 +60,50 @@ footer {background: var(--main);color: #fff;text-align: center;padding: 2em 1em;
   justify-content: center;
   flex-direction: row;
 }
-.home-header{
+.home-header {
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 2em;
 }
-.home-image{
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-#sideBar{
-  width: 500px;
-  height: 500px;
-  left: 0;
-  margin-left: 10px;
-  margin-top: 30px;
+
+#sideBar {
+  width: 260px;
+  min-width: 200px;
+  max-width: 350px;
   background-color: #5eb336;
-  position: absolute;
   font-size: large;
-  
-  
+  border-radius: 12px;
+  padding: 1.2em 1em;
+  box-sizing: border-box;
+  flex-shrink: 0; /* Prevent shrinking */
 }
-.ka{
-  font-size: larger;
-  justify-content: center;
-  margin-left: 70px;
-  margin-right: auto;
+
+.home-header > div {
+  flex: 1 1 0;
+  min-width: 0;
 }
-.la{
-  font-size: medium;
-  margin-top: 50 px
-  ;
+
+.home-image {
+  text-align: center;
+  margin: 2em 0;
+  width: 100%;
+  display: block;
+  justify-content: unset;
+  flex-direction: unset;
+  align-items: unset;
+}
+
+/* Responsive: stack sidebar on top for small screens */
+@media (max-width: 900px) {
+  .home-header {
+    flex-direction: column;
+    gap: 1em;
+  }
+  #sideBar {
+    width: 100%;
+    max-width: 100%;
+  }
 }
