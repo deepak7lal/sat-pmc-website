@@ -85,10 +85,16 @@ footer {background: var(--main);color: #fff;text-align: center;padding: 2em 1em;
   position: absolute;
   font-size: large;
   
+  
 }
 .ka{
   font-size: larger;
   justify-content: center;
   margin-left: 70px;
   margin-right: auto;
+}
+.la{
+  font-size: medium;
+  margin-top: 50 px
+  ;
 }
