@@ -49,10 +49,13 @@ th {background:var(--light);color:var(--main);}
 footer {background: var(--main);color: #fff;text-align: center;padding: 2em 1em;margin-top: 3em;font-size:1.13em;}
 ::-webkit-scrollbar {width:8px;}
 ::-webkit-scrollbar-thumb {background:var(--main);border-radius:4px;}
-.ba{
-  background-color: rgb(143, 48, 146);
+.ba {
+  background-color: rgb(193, 147, 20);
   margin-left: 550px;
   margin-right: 550px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 #home{
@@ -86,6 +89,7 @@ footer {background: var(--main);color: #fff;text-align: center;padding: 2em 1em;
   box-sizing: border-box;
   order: 2;
   flex-shrink: 1; /* allow shrinking if needed */
+  margin-top: 6em; /* Increased from 4em to 6em to move a little further down */
 }
 .home-header > div {
   flex: 1 1 0;
@@ -99,14 +103,22 @@ footer {background: var(--main);color: #fff;text-align: center;padding: 2em 1em;
     width: 100%;
     max-width: 100%;
     min-width: 0;
+    ;
   }
   .home-header {
     flex-direction: column;
     gap: 1em;
   }
 }
-.la{
-  font-size: medium;
-  margin-top: 50 px
-  ;
+.la {
+  font-size: small;
+  margin-top: 0;
+  text-align: center;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
+}
+.ka{
+  font-size: large;
+  font-weight: bold;
 }
