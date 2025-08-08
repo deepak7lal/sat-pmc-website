@@ -51,8 +51,9 @@ footer {background: var(--main);color: #fff;text-align: center;padding: 2em 1em;
 ::-webkit-scrollbar-thumb {background:var(--main);border-radius:4px;}
 .ba {
   background-color: rgb(52, 128, 183);
-  display: block;
-  max-width: 600px;
+  display: inline-block;
+  max-width: 90vw;         /* Responsive: never wider than 90% of viewport */
+  min-width: 200px;        /* Optional: minimum width for small screens */
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
