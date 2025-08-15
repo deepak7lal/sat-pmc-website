@@ -104,7 +104,7 @@
       </div>
       <div class="card">
         <img src="nand.png.png" alt="">
-        <b>Nandakishor S</b><br>Chartered Accountant<br>
+        <b>CA.Nandakishor S</b><br>Chartered Accountant<br>
         <span>Cost & financial consultancy, company registration, construction finance</span>
       </div>
       <div class="card">
@@ -288,6 +288,17 @@
     }
     return false;
   }
+  // Background slideshow for header
+  const headerImages = [
+    "https://images.unsplash.com/photo-1429497419816-9ca5cfb4571a?auto=format&fit=crop&w=1300&q=100",
+    "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1300&q=100",
+    "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1300&q=100"
+  ];
+  let current = 0;
+  setInterval(() => {
+    current = (current + 1) % headerImages.length;
+    document.querySelector("header").style.backgroundImage = `url('${headerImages[current]}')`;
+  }, 4000); // Change every 4 seconds
 </script>
 </body>
 </html>
