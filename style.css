@@ -171,3 +171,6 @@ footer {background: var(--main);color: #fff;text-align: center;padding: 2em 1em;
 .clients-logo img:nth-child(3) { animation-delay: 0.4s; }
 .clients-logo img:nth-child(4) { animation-delay: 0.6s; }
 .clients-logo img:nth-child(5) { animation-delay: 0.8s; }
+h1 {
+  color: #cf4e1f; /* Example: deep blue, change as needed */
+}
