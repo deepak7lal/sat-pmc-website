@@ -1,308 +1,901 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>SAT Project Management Consultants</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-<header>
-  <img src="f.png" class="logo" />
-  <h1>SAT Project Management Consultants</h1>
-  <p class="ba">Precision in Planning, Perfection in Delivery</p>
-</header>
-<nav>
-  <a href="#home" class="active" onclick="activateSection('home')">Home</a>
-  <a href="#about" onclick="activateSection('about')">About</a>
-  <a href="#services" onclick="activateSection('services')">Services</a>
-  <a href="#projects" onclick="activateSection('projects')">Projects</a>
-  <a href="#clients" onclick="activateSection('clients')">Clients</a>
-  <a href="#contact" onclick="activateSection('contact')">Contact</a>
-</nav>
-<main>
-  <!-- HOME -->
-  <section class="section active" id="home">
-    <div class="home-header" style="display: flex; gap: 2em; align-items: flex-start;">
-      <aside id="sideBar" style="min-width:220px;">
-        <p class="ka">Our Core Expertise</p>
-        <ul>
-          <li>Planning Scheduling and Monitoring</li>
-          <li>Quantity survey budgeting & contract management</li>
-          <li>Project Monitoring & Cost control measures</li>
-          <li>Project costing analysis</li>
-          <li>Project and construction management</li>
-          <li>Arbitration and Dispute management</li>
-          <li>EPC Pre bid services and Tendering</li>
-          <li>Extension of time & WBS creations</li>
-          <li>Project feasibility studies</li>
-        </ul>
-      </aside>
-      <div style="flex:1;">
-        <div class="features">
-          <div>SUPREMACY &<br>EXCEPTIONABLE</div>
-          <div>TIME BOUND &<br>QUALITY</div>
-          <div>COST EFFECTIVE</div>
-        </div>
-        <div class="home-image">
-          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80" alt="Construction Site">
-        </div>
-      </div>
-    </div>
-    <h3 class="la">
-            Established by skilled and experienced engineers & managers with exposure to national and international projects,<br>
-            <b>SATPMC</b> delivers the complete range of professionals, technical & support services in <b>Engineering, Construction & Project Management</b> — each project customized to your objectives.
-          </h3>
-  </section>
-  <!-- ABOUT -->
-  <section class="section" id="about">
-    <h2>About Us</h2>
-    <div class="grid grid-2">
-      <div>
-        <h3>Our Core Strength</h3>
-        <ul>
-          <li>Over a decade of teamwork on marquee Indian projects</li>
-          <li>Decisive understanding of Indian market development</li>
-          <li>Operate as <b>Single Point of Contact (SPOC)</b> for Client</li>
-          <li>Hands-on project management, median-age leadership</li>
-          <li>Best practices + international standards at local cost/needs</li>
-          <li>Symbiotic environment for all stakeholders</li>
-        </ul>
-        <h3>Approach</h3>
-        <ul>
-          <li>Detailed working procedures to facilitate execution and control</li>
-          <li>Teamwork: Contractor integrated as project success partner</li>
-          <li>Professional approach at project lifecycle steps</li>
-          <li>Proof checking, cost controlling, value engineering</li>
-        </ul>
-      </div>
-      <div class="team-photo">
-        <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=420&q=80" alt="Teamwork">
-      </div>
-    </div>
-    <h2>Our Core Team</h2>
-    <div class="card-list">
-      <div class="card">
-        <img src="r.png.png" alt="">
-        <b>Er.Rakhi R.</b><br>Technical Director (Civil)<br>
-        <span>B Tech Civil + MBA, 21+ yrs: Infopark Athulya, Aster Medcity, Gold Tower, Prestige Hill Side Gateway</span>
-      </div>
-      <div class="card">
-        <img src="p.png.png" alt="">
-        <b>Er.G Pradeep Lal</b><br>Technical Director (MEP & Allied Services)<br>
-        <span>Mechanical Engg + MBA, 25+ yrs: MEP, infra, procurement, asset mgmt</span>
-      </div>
-      <div class="card">
-        <img src="k.png.png" alt="">
-        <b>Er.Santhosh VM</b><br>Head Contracts & QS<br>
-        <span>Civil Engg + NICMAR, 20+ yrs in tendering, estimation for metro, buildings, water sector, ex-Gammon India</span>
-      </div>
-      <div class="card">
-        <img src="s.png.png" alt="">
-        <b>Dr.V.N.Sivasankara Pillai</b><br>Head Environmental Engg.<br>
-        <span>MSc PhD, QCI-NABET EIA expert, env. monitoring, pollution, water treatment</span>
-      </div>
-      <div class="card">
-        <img src="nand.png.png" alt="">
-        <b>CA. Nandakishor S</b><br>Chartered Accountant<br>
-        <span>Cost & financial consultancy, company registration, construction finance</span>
-      </div>
-      <div class="card">
-        <img src="kukku.png.png" alt="">
-        <b>Ar. Kukku Joseph</b><br>Associate Architect<br>
-        <span>15+ yrs, apts, villas, multistorey design</span>
-      </div>
-      <div class="card">
-        <img src="harisankar.png.png" alt="">
-        <b>Er. Harisankar</b><br>Structural Consultant<br>
-        <span>10+ yrs, M-Tech Structures</span>
-      </div>
-      <div class="card">
-        <img src="amjath.png.png" alt="">
-        <b>Er. Amjath Mohammed</b><br>Quality Management<br>
-        <span>B-Tech Civil + PGDM (NICMAR), QA/QC</span>
-      </div>
-    </div>
-  </section>
-  
-  <!-- SERVICES -->
-  <section class="section" id="services">
-    <h2>Our Services</h2>
-    <div class="grid grid-2">
-      <div>
-        <h3>Service Lines</h3>
-        <ul>
-          <li>Expertise in Government related project scheduling works like KIIFB, HITES, WAPCOS, KSITIL.</li>
-          <li>Base Building & Interiors (Govt aided, private, third party)</li>
-          <li>Project Management & Advisory</li>
-          <li>Technical Due Diligence, Audit, Monitoring</li>
-          <li>Cost Management</li>
-          <li>Design & Build Solutions</li>
-          <li>Industrial Training</li>
-        </ul>
-        <h3>Asset Classes</h3>
-        <ul>
-          <li>Commercial, Residential, Mixed Use, Masterplan</li>
-          <li>Data Centre, Hospitality, Healthcare, Warehouse, Industrial, Retail</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Our Approach & Value Engineering</h3>
-        <ul>
-          <li>Full project lifecycle: concept to handover</li>
-          <li>Effective team deployment, Proof checking, Cost control</li>
-          <li>Continuous optimisation with market inputs</li>
-          <li>Structure, Façade, MEP, Finishes</li>
-        </ul>
-        <h3>Project Phases/Expertise</h3>
-        <ol>
-          <li>Detailed Project Report Preparation</li>
-          <li>Feasibility & Client Brief</li>
-          <li>Technical Investigation/Due Diligence</li>
-          <li>Statutory Approvals</li>
-          <li>QA/QC, EHS, Change Management</li>
-          <li>Schematic/Detail Design, Tender, Award, Procurement</li>
-          <li>Execution, Supervision, Monitoring, Safety Management</li>
-          <li>Closure: Testing, Commissioning, Handover, DLP</li>
-        </ol>
-      </div>
-    </div>
-    <h2>Specialized Management</h2>
-    <div class="grid grid-2">
-      <div>
-        <h3>Contract Management</h3>
-        <ul>
-          <li>Contract Administration & Govt liaison, Prequalification</li>
-          <li>Detailed estimates, Pre/post bid negotiation, Tendering, Empanelment</li>
-        </ul>
-        <h3>Construction Management</h3>
-        <ul>
-          <li>Fast track, Constructive acceleration</li>
-          <li>Coordination & supplemental info</li>
-          <li>Quality & safety, Methodology review</li>
-          <li>Material procurement, Value engineering, Equipment selection</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Cost Control Solutions</h3>
-        <ul>
-          <li>Cash flow operation & budget validation</li>
-          <li>BOQ/Schedule linking, Risk/time/cost/schedule variance</li>
-          <li>Viable proposals, Material reconciliation</li>
-        </ul>
-        <h3>Monitoring & Control</h3>
-        <ul>
-          <li>Scheduling/monitoring, periodic contract reviews</li>
-          <li>Delay estimates and mitigation</li>
-          <li>Inventory management</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-  
-  <!-- PROJECTS -->
-  <section class="section" id="projects">
-    <h2>Our major projects</h2>
-    <div class="clients-logo">
-      <img src="lulu.png" alt="Lulu">
-      <img src="inf.png.png" alt="Infopark">
-      <img src="a.png.png" alt="Aster">
-      <img src="MARKET.jpg" alt="CCPL">
-      <img src="go.png" alt="Prestige">
-    </div>
-    <h2>Completed Projects (Core Team)</h2>
-    <h3>Main projects in Kerala</h3>
-    <ul>
-      <li>Ernakulam Market Complex, CCPL – PMC, Scheduling, Monitoring, Cost Control</li>
-      <li>Lulu Mall Kottayam, CCPL – PMC, Scheduling, Monitoring, Cost Control</li>
-      <li>Commercial Complex, Support Stage IT, Kakkanad – PMC</li>
-      <li>Projects at Aduvassery & Desom (Aluva, Ernakulam) – PMC</li>
-      <li>Gold Tower, Ernakulam; Prestige Hillside Gateway,</li>
-      <li>Private Residences: Kollam, Mavelikkara – PMC</li>
-    </ul>
-    <h3> Ongoing Projects Portfolio</h3>
-    <ul>
-      <li>Commercial Complex, IT firm - PMC Services</li>
-      <li>Heather Construction - Cost Consultancy</li>
-      <li>Vettoor Construction Engineers - Project Management</li>
-      <li>MAFIL Group, Solid Structures, Pan Pacific Engineering, ITCS Project, KGA Group, KRK Projects, CCPL, Caspian TechPark, GABION, EKK Infra, GM Engineers, Mark and Signs LLP, Skyline Riverside Apartment, Mr. Rinon (tourism), Mr. Eby Mathew (residential), Mr. Sreeprasad (commercial)</li>
-    </ul>
-  </section>
-  
-  <!-- CLIENTS -->
-  <section class="section" id="clients">
-    <h2>Our Clients</h2>
-    <div class="clients-logos">
-      <img src="cli.png.png" alt="">
-      
-    </div>
-    <h3>Training & Work History</h3>
-    <ul>
-      <li>Industrial Training: Govt Engineering College, Palakkad; Construction Equipment Industry</li>
-      <li>Team delivered projects at Aster Medcity Kochi, Infopark Athulya, Wipro, private residences</li>
-    </ul>
-  </section>
-  
-  <!-- CONTACT -->
-  <section class="section" id="contact">
-    <h2>Contact Us</h2>
-    <div class="contact-box">
-      <b>SAT Project Management Consultants</b><br>
-      A14, TOG PASS ROAD, KALAMASSERY, ERNAKULAM<br>
-      <a href="tel:+917012964179">+91-7012964179</a>,
-      <a href="tel:+919847701118">+91-9847701118</a>,
-      <a href="tel:+919567138280">+91-9567138280</a><br>
-      <a href="mailto:satpmc@gmail.com">satpmc@gmail.com</a>
-      
-      <div style="margin-top:1em;">Thank you for visiting SAT PMC!</div>
-    </div>
-  </section>
-</main>
-<footer>
-  &copy; 2025 SAT PMC - Project Management Consultants.<br>
-  Excellence in Project Delivery. All Rights Reserved.
-</footer>
-<script>
-  // Section Navigation
-  function activateSection(id) {
-    document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
-    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
-    document.querySelector('nav a[href="#'+id+'"]').classList.add('active');
-    document.getElementById(id).classList.add('active');
-    window.scrollTo({top:0,behavior:'smooth'});
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>SAT PMC | Project Management Consultants in Kochi, Kerala</title>
+<meta name="description" content="SAT Project Management Consultants, Kalamassery, Ernakulam. PMC, scheduling, quantity surveying, cost control and contract management for commercial, residential and government projects across Kerala.">
+<link rel="canonical" href="https://satpmc.com/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="SAT Project Management Consultants — Kochi, Kerala">
+<meta property="og:description" content="Planning, cost control and contract management for construction projects across Kerala. Team credits include Lulu Mall Kottayam, Aster Medcity and Infopark Athulya.">
+<meta property="og:url" content="https://satpmc.com/">
+<meta property="og:image" content="https://satpmc.com/f.png">
+<meta name="theme-color" content="#1E262E">
+
+<link rel="icon" href="f.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "https://satpmc.com/#organization",
+  "name": "SAT Project Management Consultants",
+  "alternateName": ["SATPMC", "SAT PMC"],
+  "url": "https://satpmc.com/",
+  "logo": "https://satpmc.com/f.png",
+  "image": "https://satpmc.com/f.png",
+  "description": "Project management consultants in Kochi providing PMC services, planning and scheduling, quantity surveying, cost control, tendering, contract management and arbitration support for construction projects across Kerala.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "A14, TOG Pass Road, Kalamassery",
+    "addressLocality": "Ernakulam",
+    "addressRegion": "Kerala",
+    "postalCode": "683104",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 10.0459,
+    "longitude": 76.3200
+  },
+  "telephone": "+91-7012964179",
+  "email": "satpmc@gmail.com",
+  "priceRange": "$$",
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+    "opens": "09:30",
+    "closes": "18:00"
+  }],
+  "areaServed": [
+    { "@type": "City",  "name": "Kochi" },
+    { "@type": "City",  "name": "Ernakulam" },
+    { "@type": "City",  "name": "Thrissur" },
+    { "@type": "City",  "name": "Kottayam" },
+    { "@type": "City",  "name": "Trivandrum" },
+    { "@type": "State", "name": "Kerala" }
+  ],
+  "knowsAbout": [
+    "Project Management Consultancy",
+    "Quantity Surveying",
+    "Construction Cost Control",
+    "Tendering and Contract Management",
+    "Construction Arbitration",
+    "Value Engineering",
+    "Technical Due Diligence",
+    "Extension of Time Claims"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Consultancy services",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Project management consultancy (PMC)", "description": "Full-lifecycle project management from detailed project report through to handover." }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Planning, scheduling and monitoring", "description": "Baseline programme, WBS, progress monitoring, delay analysis and extension of time claims." }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Quantity surveying and cost consultancy", "description": "Detailed estimates, BOQ, budget validation, cash flow and cost variance reporting." }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tendering and contract management", "description": "Prequalification, EPC pre-bid services, bid negotiation and contract administration." }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Arbitration and dispute management", "description": "Claims preparation, delay attribution and dispute support for construction contracts." }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Technical due diligence and audit", "description": "Independent technical investigation, condition survey and project audit." }}
+    ]
   }
-  // Contact Form
-  function validateContactForm() {
-    var name = document.getElementById('name').value.trim(),
-        email = document.getElementById('email').value.trim(),
-        msg = document.getElementById('msg').value.trim(),
-        status = document.getElementById('formStatus');
-    if (!name || !email || !msg) {
-      status.textContent = "Please fill all fields.";
-      status.style.color = "yellow";
-    } else {
-      status.textContent = "Thank you! We'll get in touch soon.";
-      status.style.color = "#2cf57c";
-      setTimeout(() => { status.textContent = ""; }, 4000);
-      document.getElementById('contactForm').reset();
-    }
-    return false;
-  }
-  // Background slideshow for header
-  const headerImages = [
-    "https://images.unsplash.com/photo-1429497419816-9ca5cfb4571a?auto=format&fit=crop&w=1300&q=100",
-    "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1300&q=100",
-    "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1300&q=100",
-    "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=1300&q=100",
-    "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1300&q=100"
-   
-  ];
-  let current = 0;
-  setInterval(() => {
-    current = (current + 1) % headerImages.length;
-    document.querySelector("header").style.backgroundImage = `url('${headerImages[current]}')`;
-  }, 3000); // Change every 3 seconds
+}
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does a project management consultant (PMC) do?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A PMC acts for the client rather than the contractor. It sets the programme and budget, proof-checks design, runs tendering, monitors progress and cost on site, and closes the project out at handover. The purpose is that delay and cost overrun are traced and controlled as they happen, rather than argued about afterwards."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which areas does SAT PMC serve?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SAT PMC is based in Kalamassery, Ernakulam and works across Kerala, including Kochi, Thrissur, Kottayam, Kollam and Trivandrum, on commercial, residential, healthcare, education, hospitality, industrial and government projects."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does SAT PMC handle government projects?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The team has scheduling and monitoring experience on works routed through KIIFB, HITES, WAPCOS and KSITIL, including prequalification, tendering and empanelment support."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When should a PMC be appointed on a project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "As early as the detailed project report or feasibility stage. Appointing a PMC before design is frozen and tenders are issued is where most of the cost and programme benefit is available. SAT PMC can also be appointed mid-project for cost control, delay analysis or dispute support."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between a PMC and a contractor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A contractor builds the works and is paid for the works. A PMC is appointed by the client to protect the client's programme, budget and contractual position, including checking the contractor's claims, quality and progress. The two roles are deliberately independent."
+      }
+    }
+  ]
+}
+</script>
+</head>
+
+<body>
+
+<!-- ============ TOP BAR ============ -->
+<header class="topbar">
+  <input type="checkbox" id="navcheck" hidden>
+  <div class="topbar__inner">
+    <a class="brand" href="#top">
+      <img src="f.png" alt="SAT Project Management Consultants logo" width="34" height="34">
+      <span>
+        <span class="brand__name">SAT PMC</span><br>
+        <span class="brand__sub">Ernakulam, Kerala</span>
+      </span>
+    </a>
+
+    <nav class="nav" aria-label="Main">
+      <a href="#lifecycle">What we do</a>
+      <a href="#capability">Capability</a>
+      <a href="#team">Team</a>
+      <a href="#projects">Projects</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a class="btn topbar__cta" href="#contact">Request a proposal</a>
+    <label class="nav-toggle" for="navcheck" aria-label="Open menu"><span></span></label>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="wrap">
+    <p class="hero__meta">
+      <span>Est. Kalamassery, Ernakulam</span>
+      <span>PMC &middot; QS &middot; Cost Control</span>
+      <span>Kerala &amp; South India</span>
+    </p>
+
+    <h1>Projects don't slip on site.<br>They slip on the <em>schedule</em>.</h1>
+
+    <p class="lede">
+      SAT PMC is a project management consultancy in Kochi. We hold the programme, the
+      budget and the contract for developers, builders and government agencies — from the
+      detailed project report through to handover — as a single point of contact.
+    </p>
+
+    <div class="hero__cta">
+      <a class="btn btn--lg" href="#contact">Request a proposal</a>
+      <a class="btn btn--ghost btn--lg" href="#projects">See our projects</a>
+    </div>
+
+    <div class="roster">
+      <p class="roster__label">Projects delivered by our core team</p>
+      <div class="roster__grid">
+        <div><b>Lulu Mall</b><span>Kottayam &middot; CCPL</span></div>
+        <div><b>Aster Medcity</b><span>Kochi &middot; Healthcare</span></div>
+        <div><b>Infopark Athulya</b><span>Kakkanad &middot; IT</span></div>
+        <div><b>Prestige Hillside Gateway</b><span>Kochi &middot; Mixed use</span></div>
+        <div><b>Ernakulam Market Complex</b><span>CCPL &middot; Commercial</span></div>
+        <div><b>Gold Tower</b><span>Ernakulam &middot; Commercial</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LIFECYCLE / GANTT ============ -->
+<section class="section section--dark" id="lifecycle">
+  <div class="wrap">
+    <div class="section__head">
+      <p class="eyebrow">Where we sit</p>
+      <h2>Appointed at concept. Still there at handover.</h2>
+      <p class="lede">
+        Most consultants join for one phase. We run the full lifecycle, which is what makes
+        delay attribution, cost variance and contract exposure traceable rather than argued
+        after the fact.
+      </p>
+    </div>
+
+    <!-- ---- Interactive 3D lifecycle ---- -->
+    <div class="rig" id="rig">
+
+      <div class="rig__stage" id="stage" role="img" tabindex="0"
+           aria-label="A building rising floor by floor, one floor per project phase. Use the slider below to step through the phases.">
+        <div class="rig__ground"></div>
+        <div class="tower" id="tower">
+          <!-- floors injected by script -->
+        </div>
+        <p class="rig__hint" id="hint">Drag to rotate</p>
+      </div>
+
+      <div class="rig__panel">
+        <div class="rig__readout">
+          <p class="rig__code" id="phaseCode">Phase 01</p>
+          <h3 class="rig__title" id="phaseTitle">Detailed Project Report</h3>
+          <p class="rig__desc" id="phaseDesc">Scope, cost plan and programme set down before a rupee is committed.</p>
+          <p class="rig__role"><span>SAT role</span> <b id="phaseRole">Author the DPR</b></p>
+        </div>
+
+        <div class="rig__controls">
+          <button class="rig__nav" id="prevBtn" type="button" aria-label="Previous phase">&larr;</button>
+          <label class="rig__slider">
+            <span class="visually-hidden">Project phase</span>
+            <input type="range" id="phaseRange" min="1" max="8" value="1" step="1" aria-describedby="phaseTitle">
+          </label>
+          <button class="rig__nav" id="nextBtn" type="button" aria-label="Next phase">&rarr;</button>
+        </div>
+
+        <ol class="rig__ticks" id="ticks" aria-hidden="true">
+          <li>01</li><li>02</li><li>03</li><li>04</li>
+          <li>05</li><li>06</li><li>07</li><li>08</li>
+        </ol>
+
+        <p class="rig__foot">SAT PMC holds all eight. One contract, one point of contact.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CAPABILITY ============ -->
+<section class="section" id="capability">
+  <div class="wrap">
+    <div class="section__head">
+      <p class="eyebrow">Capability</p>
+      <h2>Four things we are asked for most.</h2>
+    </div>
+
+    <div class="grid grid--4">
+      <div class="card">
+        <h3>Planning &amp; monitoring</h3>
+        <ul>
+          <li>Baseline programme and WBS</li>
+          <li>Periodic progress monitoring</li>
+          <li>Delay estimation and mitigation</li>
+          <li>Extension of time claims</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Quantity surveying</h3>
+        <ul>
+          <li>Detailed estimates and BOQ</li>
+          <li>Budget validation, cash flow</li>
+          <li>Material reconciliation</li>
+          <li>Cost variance reporting</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Contracts &amp; tendering</h3>
+        <ul>
+          <li>Prequalification and empanelment</li>
+          <li>Pre- and post-bid negotiation</li>
+          <li>EPC pre-bid services</li>
+          <li>Arbitration and dispute support</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Construction management</h3>
+        <ul>
+          <li>Fast-track and acceleration</li>
+          <li>Quality, safety and EHS</li>
+          <li>Methodology review, proof checking</li>
+          <li>Value engineering</li>
+        </ul>
+      </div>
+    </div>
+
+    <div style="margin-top:2.75rem">
+      <p class="eyebrow">Services in detail</p>
+      <div class="svc-links">
+        <a class="svc-link" href="project-management-consultancy-kochi.html">
+          <b>Project management consultancy</b>
+          <p>Full-lifecycle PMC from detailed project report through to handover, as your single point of contact.</p>
+          <em>Read more &rarr;</em>
+        </a>
+        <a class="svc-link" href="planning-scheduling-monitoring.html">
+          <b>Planning &amp; scheduling</b>
+          <p>Baseline programmes, progress monitoring, delay analysis and extension of time claims.</p>
+          <em>Read more &rarr;</em>
+        </a>
+        <a class="svc-link" href="quantity-surveying-cost-consultancy.html">
+          <b>Quantity surveying</b>
+          <p>Estimates, BOQ, budget validation, cash flow, material reconciliation and cost variance reporting.</p>
+          <em>Read more &rarr;</em>
+        </a>
+        <a class="svc-link" href="tendering-contract-management.html">
+          <b>Tendering &amp; contracts</b>
+          <p>Prequalification, tender documentation, bid comparison, negotiation and contract administration.</p>
+          <em>Read more &rarr;</em>
+        </a>
+        <a class="svc-link" href="construction-arbitration-dispute.html">
+          <b>Arbitration &amp; disputes</b>
+          <p>Claim preparation and defence, forensic delay analysis, quantum assessment and arbitration support.</p>
+          <em>Read more &rarr;</em>
+        </a>
+        <a class="svc-link" href="technical-due-diligence-audit.html">
+          <b>Technical due diligence</b>
+          <p>Independent condition survey, real percentage complete, cost-to-complete and compliance review.</p>
+          <em>Read more &rarr;</em>
+        </a>
+      </div>
+    </div>
+
+    <div class="grid grid--2" style="margin-top:1.5rem">
+      <div class="card">
+        <h3>Government project experience</h3>
+        <p style="margin:0 0 0.9rem;color:var(--slate);font-size:0.9rem">
+          Scheduling and monitoring on works routed through:
+        </p>
+        <ul class="tags">
+          <li>KIIFB</li><li>HITES</li><li>WAPCOS</li><li>KSITIL</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Asset classes</h3>
+        <p style="margin:0 0 0.9rem;color:var(--slate);font-size:0.9rem">
+          Delivered across:
+        </p>
+        <ul class="tags">
+          <li>Commercial</li><li>Residential</li><li>Mixed use</li><li>Healthcare</li>
+          <li>Education</li><li>Hospitality</li><li>Data centre</li><li>Warehouse</li>
+          <li>Industrial</li><li>Retail</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TEAM ============ -->
+<section class="section" id="team">
+  <div class="wrap">
+    <div class="section__head">
+      <p class="eyebrow">Core team</p>
+      <h2>You get the directors, not a junior.</h2>
+      <p class="lede">
+        Eight specialists with a combined 100+ years across civil, MEP, contracts,
+        environment, structures, quality and construction finance.
+      </p>
+    </div>
+
+    <div class="grid grid--4">
+      <article class="person">
+        <div class="person__img"><img src="r.png.png" alt="Er. Rakhi R., Technical Director (Civil) at SAT PMC, Kochi" loading="lazy"></div>
+        <div class="person__body">
+          <h3 class="person__name">Er. Rakhi R.</h3>
+          <p class="person__role">Technical Director — Civil</p>
+          <p class="person__bio">B.Tech Civil, MBA. 21+ years. Infopark Athulya, Aster Medcity, Gold Tower, Prestige Hillside Gateway.</p>
+        </div>
+      </article>
+
+      <article class="person">
+        <div class="person__img"><img src="p.png.png" alt="Er. G Pradeep Lal, Technical Director (MEP) at SAT PMC, Kochi" loading="lazy"></div>
+        <div class="person__body">
+          <h3 class="person__name">Er. G Pradeep Lal</h3>
+          <p class="person__role">Technical Director — MEP</p>
+          <p class="person__bio">Mechanical Engineering, MBA. 25+ years in MEP, infrastructure, procurement and asset management.</p>
+        </div>
+      </article>
+
+      <article class="person">
+        <div class="person__img"><img src="k.png.png" alt="Er. Santhosh V M, Head of Contracts and Quantity Surveying at SAT PMC" loading="lazy"></div>
+        <div class="person__body">
+          <h3 class="person__name">Er. Santhosh V M</h3>
+          <p class="person__role">Head — Contracts &amp; QS</p>
+          <p class="person__bio">Civil Engineering, NICMAR. 20+ years in tendering and estimation for metro, buildings and water sector. Formerly Gammon India.</p>
+        </div>
+      </article>
+
+      <article class="person">
+        <div class="person__img"><img src="s.png.png" alt="Dr. V N Sivasankara Pillai, Head of Environmental Engineering at SAT PMC" loading="lazy"></div>
+        <div class="person__body">
+          <h3 class="person__name">Dr. V N Sivasankara Pillai</h3>
+          <p class="person__role">Head — Environmental</p>
+          <p class="person__bio">MSc, PhD. QCI-NABET accredited EIA expert. Environmental monitoring, pollution control and water treatment.</p>
+        </div>
+      </article>
+
+      <article class="person">
+        <div class="person__img"><img src="nand.png.png" alt="CA Nandakishor S, Chartered Accountant at SAT PMC" loading="lazy"></div>
+        <div class="person__body">
+          <h3 class="person__name">CA Nandakishor S</h3>
+          <p class="person__role">Chartered Accountant</p>
+          <p class="person__bio">Cost and financial consultancy, company registration, construction finance structuring.</p>
+        </div>
+      </article>
+
+      <!-- PHOTO MISSING: upload kukku.jpg to the repo, then swap the div below for an <img> -->
+      <article class="person">
+        <div class="person__img"><span class="person__initials">KJ</span></div>
+        <div class="person__body">
+          <h3 class="person__name">Ar. Kukku Joseph</h3>
+          <p class="person__role">Associate Architect</p>
+          <p class="person__bio">15+ years across apartments, villas and multistorey residential design.</p>
+        </div>
+      </article>
+
+      <!-- PHOTO MISSING: upload harisankar.jpg to the repo, then swap the div below for an <img> -->
+      <article class="person">
+        <div class="person__img"><span class="person__initials">H</span></div>
+        <div class="person__body">
+          <h3 class="person__name">Er. Harisankar</h3>
+          <p class="person__role">Structural Consultant</p>
+          <p class="person__bio">M.Tech Structures. 10+ years in structural design and proof checking.</p>
+        </div>
+      </article>
+
+      <!-- PHOTO MISSING: upload amjath.jpg to the repo, then swap the div below for an <img> -->
+      <article class="person">
+        <div class="person__img"><span class="person__initials">AM</span></div>
+        <div class="person__body">
+          <h3 class="person__name">Er. Amjath Mohammed</h3>
+          <p class="person__role">Quality Management</p>
+          <p class="person__bio">B.Tech Civil, PGDM (NICMAR). QA/QC systems and site quality assurance.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="section" id="projects">
+  <div class="wrap">
+    <div class="section__head">
+      <p class="eyebrow">Track record</p>
+      <h2>Completed projects.</h2>
+    </div>
+
+    <div class="ptable">
+      <div class="ptable__row ptable__row--head">
+        <div>Project</div><div>Client</div><div>Scope</div>
+      </div>
+      <div class="ptable__row">
+        <div class="ptable__name">Lulu Mall, Kottayam</div>
+        <div class="ptable__client">CCPL</div>
+        <div class="ptable__scope">PMC · Scheduling · Cost control</div>
+      </div>
+      <div class="ptable__row">
+        <div class="ptable__name">Ernakulam Market Complex</div>
+        <div class="ptable__client">CCPL</div>
+        <div class="ptable__scope">PMC · Scheduling · Monitoring</div>
+      </div>
+      <div class="ptable__row">
+        <div class="ptable__name">Chennais Amrita Institute</div>
+        <div class="ptable__client">Institutional</div>
+        <div class="ptable__scope">PMC · Project management</div>
+      </div>
+      <div class="ptable__row">
+        <div class="ptable__name">Commercial Complex, Kakkanad</div>
+        <div class="ptable__client">Support Stage IT</div>
+        <div class="ptable__scope">PMC</div>
+      </div>
+      <div class="ptable__row">
+        <div class="ptable__name">Projects at Aduvassery &amp; Desom</div>
+        <div class="ptable__client">Aluva, Ernakulam</div>
+        <div class="ptable__scope">PMC</div>
+      </div>
+      <div class="ptable__row">
+        <div class="ptable__name">Gold Tower, Ernakulam</div>
+        <div class="ptable__client">Core team credit</div>
+        <div class="ptable__scope">Project management</div>
+      </div>
+      <div class="ptable__row">
+        <div class="ptable__name">Prestige Hillside Gateway</div>
+        <div class="ptable__client">Core team credit</div>
+        <div class="ptable__scope">Project management</div>
+      </div>
+      <div class="ptable__row">
+        <div class="ptable__name">Private residences</div>
+        <div class="ptable__client">Kollam, Mavelikkara</div>
+        <div class="ptable__scope">PMC</div>
+      </div>
+    </div>
+
+    <div style="margin-top:2.5rem">
+      <p class="eyebrow">Currently engaged</p>
+      <ul class="tags">
+        <li>MAFIL Group</li><li>Solid Structures</li><li>Pan Pacific Engineering</li>
+        <li>ITCS Project</li><li>KGA Group</li><li>KRK Projects</li><li>CCPL</li>
+        <li>Caspian TechPark</li><li>GABION</li><li>EKK Infra</li><li>GM Engineers</li>
+        <li>Mark and Signs LLP</li><li>Skyline Riverside</li>
+        <li>Heather Construction</li><li>Vettoor Construction Engineers</li>
+      </ul>
+    </div>
+
+    <div style="margin-top:2.5rem">
+      <p class="eyebrow">Clients</p>
+      <div class="clients">
+        <div><img src="lulu.png" alt="Lulu Mall Kottayam — project delivered by the SAT PMC core team" loading="lazy"></div>
+        <div><img src="inf.png.png" alt="Infopark Athulya, Kakkanad — project delivered by the SAT PMC core team" loading="lazy"></div>
+        <div><img src="a.png.png" alt="Aster Medcity, Kochi — project delivered by the SAT PMC core team" loading="lazy"></div>
+        <div><img src="MARKET.jpg" alt="CCPL — Ernakulam Market Complex, client of SAT PMC" loading="lazy"></div>
+        <div><img src="go.png" alt="Prestige Hillside Gateway, Kochi — project delivered by the SAT PMC core team" loading="lazy"></div>
+        <div><img src="heather.png.png" alt="Heather Construction — cost consultancy client of SAT PMC" loading="lazy"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ + SERVICE AREA ============ -->
+<section class="section" id="faq">
+  <div class="wrap">
+    <div class="section__head">
+      <p class="eyebrow">Common questions</p>
+      <h2>What a project management consultant actually does.</h2>
+    </div>
+
+    <div class="grid grid--2">
+      <div>
+        <details class="qa" open>
+          <summary>What does a project management consultant (PMC) do?</summary>
+          <p>A PMC acts for the client, not the contractor. It sets the programme and budget,
+          proof-checks the design, runs tendering, monitors progress and cost on site, and closes
+          the project out at handover. The point is that delay and cost overrun get traced and
+          controlled as they happen, instead of being argued about afterwards.</p>
+        </details>
+
+        <details class="qa">
+          <summary>How is a PMC different from a contractor?</summary>
+          <p>A contractor builds the works and is paid for the works. A PMC is appointed by the
+          client to protect the client's programme, budget and contractual position — including
+          checking the contractor's claims, quality and progress. The two roles are deliberately
+          independent of each other.</p>
+        </details>
+
+        <details class="qa">
+          <summary>When should we appoint a PMC?</summary>
+          <p>As early as the detailed project report or feasibility stage. Most of the cost and
+          programme benefit is available before the design is frozen and tenders go out. We are
+          also appointed mid-project, usually for cost control, delay analysis or dispute support.</p>
+        </details>
+      </div>
+
+      <div>
+        <details class="qa">
+          <summary>Do you handle government projects?</summary>
+          <p>Yes. Our team has scheduling and monitoring experience on works routed through KIIFB,
+          HITES, WAPCOS and KSITIL, including prequalification, tendering and empanelment support.</p>
+        </details>
+
+        <details class="qa">
+          <summary>Do you take on residential projects?</summary>
+          <p>Yes. Alongside commercial and institutional work we provide PMC and cost consultancy
+          on private residences and apartment developments, including projects in Kollam and
+          Mavelikkara.</p>
+        </details>
+
+        <details class="qa">
+          <summary>How are your fees structured?</summary>
+          <p>Typically as a percentage of project value, or a fixed monthly fee for defined scope
+          such as scheduling and cost monitoring. We issue a written scope and fee proposal after
+          understanding the project's size, stage and duration.</p>
+        </details>
+      </div>
+    </div>
+
+    <div style="margin-top:2.5rem">
+      <p class="eyebrow">Where we work</p>
+      <p style="max-width:62ch;color:var(--slate);margin:0 0 1rem">
+        Our office is in Kalamassery, Ernakulam. We take project management, quantity surveying
+        and cost consultancy appointments across Kerala:
+      </p>
+      <ul class="tags">
+        <li>Kochi</li><li>Ernakulam</li><li>Kakkanad</li><li>Aluva</li><li>Kalamassery</li>
+        <li>Thrissur</li><li>Kottayam</li><li>Alappuzha</li><li>Kollam</li>
+        <li>Trivandrum</li><li>Kozhikode</li><li>Palakkad</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section section--dark" id="contact">
+  <div class="wrap">
+    <div class="section__head">
+      <p class="eyebrow">Contact</p>
+      <h2>Tell us about the project.</h2>
+      <p class="lede">
+        Send the basics — location, asset class, approximate value and where you are in the
+        programme. We will come back with a scope and fee proposal.
+      </p>
+    </div>
+
+    <div class="contact-grid">
+      <div>
+        <!-- SETUP: replace YOUR_FORM_ID with a free Formspree endpoint (formspree.io) -->
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required autocomplete="name">
+          </div>
+          <div class="field">
+            <label for="org">Company</label>
+            <input id="org" name="company" type="text" autocomplete="organization">
+          </div>
+          <div class="field">
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" required autocomplete="tel" inputmode="tel">
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required autocomplete="email">
+          </div>
+          <div class="field">
+            <label for="service">What do you need</label>
+            <select id="service" name="service">
+              <option>Project management consultancy</option>
+              <option>Quantity surveying / cost consultancy</option>
+              <option>Tendering &amp; contract management</option>
+              <option>Technical due diligence / audit</option>
+              <option>Arbitration &amp; dispute support</option>
+              <option>Something else</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="msg">Project details</label>
+            <textarea id="msg" name="message" placeholder="Location, asset class, approximate built-up area or value, current stage"></textarea>
+          </div>
+          <button class="btn btn--lg" type="submit">Send enquiry</button>
+        </form>
+      </div>
+
+      <div>
+        <div class="contact-line">
+          <div class="contact-line__k">Office</div>
+          <div class="contact-line__v">A14, TOG Pass Road,<br>Kalamassery, Ernakulam,<br>Kerala 683104</div>
+        </div>
+        <div class="contact-line">
+          <div class="contact-line__k">Phone</div>
+          <div class="contact-line__v">
+            <a href="tel:+917012964179">+91 70129 64179</a><br>
+            <a href="tel:+919847701118">+91 98477 01118</a><br>
+            <a href="tel:+919567138280">+91 95671 38280</a>
+          </div>
+        </div>
+        <div class="contact-line">
+          <div class="contact-line__k">Email</div>
+          <!-- RECOMMENDED: move to info@satpmc.com — a gmail address costs credibility with institutional clients -->
+          <div class="contact-line__v"><a href="mailto:satpmc@gmail.com">satpmc@gmail.com</a></div>
+        </div>
+        <div class="contact-line">
+          <div class="contact-line__k">WhatsApp</div>
+          <div class="contact-line__v"><a href="https://wa.me/917012964179">Message us on WhatsApp</a></div>
+        </div>
+
+        <div class="map">
+          <iframe
+            title="SAT PMC office location, Kalamassery"
+            src="https://www.google.com/maps?q=Kalamassery,+Ernakulam,+Kerala&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <div>© 2026 SAT Project Management Consultants · Kalamassery, Ernakulam</div>
+    <div>Precision in planning, perfection in delivery</div>
+  </div>
+</footer>
+
+<!-- Mobile sticky actions -->
+<div class="callbar">
+  <a class="callbar__call" href="tel:+917012964179">Call</a>
+  <a class="callbar__wa" href="https://wa.me/917012964179">WhatsApp</a>
+</div>
+
+<script>
+  // Close the mobile menu after a nav tap
+  document.querySelectorAll('.nav a').forEach(function (a) {
+    a.addEventListener('click', function () {
+      document.getElementById('navcheck').checked = false;
+    });
+  });
+</script>
+
+<script>
+/* ============================================================
+   Interactive 3D project lifecycle
+   Eight floors, one per phase. Pure CSS 3D transforms — no
+   library, so it stays fast on a mid-range phone.
+   ============================================================ */
+(function () {
+  var PHASES = [
+    { title: 'Detailed Project Report',
+      desc:  'Scope, cost plan and programme set down before a rupee is committed.',
+      role:  'Author the DPR' },
+    { title: 'Feasibility & client brief',
+      desc:  'Testing whether the scheme works on the site, the budget and the timeline you actually have.',
+      role:  'Validate the brief' },
+    { title: 'Technical due diligence',
+      desc:  'Soil, services, statutory constraints and existing-condition survey, audited independently.',
+      role:  'Run the investigation' },
+    { title: 'Statutory approvals',
+      desc:  'Liaison with local bodies and government agencies through to sanction.',
+      role:  'Drive the approvals' },
+    { title: 'Design, tender & award',
+      desc:  'Drawings proof-checked, BOQ built, contractors prequalified and bids negotiated.',
+      role:  'Tender and negotiate' },
+    { title: 'Procurement',
+      desc:  'Material selection, rate comparison and long-lead ordering against the programme.',
+      role:  'Control the buy' },
+    { title: 'Execution & supervision',
+      desc:  'Progress monitoring, quality and safety on site, cost variance reported every cycle.',
+      role:  'Hold the programme' },
+    { title: 'Testing, commissioning & handover',
+      desc:  'Snagging, commissioning, documentation and the defect liability period.',
+      role:  'Close it out' }
+  ];
+
+  var tower  = document.getElementById('tower');
+  var stage  = document.getElementById('stage');
+  var rig    = document.getElementById('rig');
+  var range  = document.getElementById('phaseRange');
+  var ticks  = document.getElementById('ticks');
+  var hint   = document.getElementById('hint');
+  if (!tower || !stage) return;
+
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ---- build the floors ---- */
+  var FACES = ['front', 'back', 'left', 'right', 'top'];
+  var floors = [];
+
+  PHASES.forEach(function (p, i) {
+    var f = document.createElement('div');
+    f.className = 'floor';
+    f.style.setProperty('--i', i);
+    FACES.forEach(function (name) {
+      var face = document.createElement('div');
+      face.className = 'face face--' + name;
+      f.appendChild(face);
+    });
+    var tag = document.createElement('div');
+    tag.className = 'floor__tag';
+    tag.textContent = String(i + 1).padStart(2, '0');
+    f.appendChild(tag);
+    tower.appendChild(f);
+    floors.push(f);
+  });
+
+  /* ---- state ---- */
+  var phase = 1;
+  var spin  = -32;
+  var tilt  = -10;
+  var dragging = false, lastX = 0, lastY = 0, touched = false;
+
+  function applyView() {
+    tower.style.setProperty('--spin', spin + 'deg');
+    tower.style.setProperty('--tilt', tilt + 'deg');
+  }
+
+  function setPhase(n, fromUser) {
+    phase = Math.min(PHASES.length, Math.max(1, n));
+    range.value = phase;
+
+    floors.forEach(function (f, i) {
+      f.classList.toggle('is-built',   i <  phase - 1);
+      f.classList.toggle('is-current', i === phase - 1);
+      f.classList.toggle('is-planned', i >  phase - 1);
+    });
+
+    Array.prototype.forEach.call(ticks.children, function (li, i) {
+      li.classList.toggle('is-on', i < phase);
+    });
+
+    var p = PHASES[phase - 1];
+    document.getElementById('phaseCode').textContent  = 'Phase ' + String(phase).padStart(2, '0');
+    document.getElementById('phaseTitle').textContent = p.title;
+    document.getElementById('phaseDesc').textContent  = p.desc;
+    document.getElementById('phaseRole').textContent  = p.role;
+
+    if (fromUser) stopAuto();
+  }
+
+  /* ---- drag to rotate ---- */
+  function onDown(e) {
+    dragging = true;
+    touched = true;
+    stage.classList.add('is-dragging');
+    var pt = e.touches ? e.touches[0] : e;
+    lastX = pt.clientX; lastY = pt.clientY;
+    if (hint) hint.classList.add('is-gone');
+    stopAuto();
+  }
+  function onMove(e) {
+    if (!dragging) return;
+    var pt = e.touches ? e.touches[0] : e;
+    spin += (pt.clientX - lastX) * 0.45;
+    tilt  = Math.max(-34, Math.min(6, tilt + (pt.clientY - lastY) * 0.18));
+    lastX = pt.clientX; lastY = pt.clientY;
+    applyView();
+    if (e.cancelable) e.preventDefault();
+  }
+  function onUp() { dragging = false; stage.classList.remove('is-dragging'); }
+
+  stage.addEventListener('mousedown', onDown);
+  window.addEventListener('mousemove', onMove);
+  window.addEventListener('mouseup', onUp);
+  stage.addEventListener('touchstart', onDown, { passive: true });
+  window.addEventListener('touchmove', onMove, { passive: false });
+  window.addEventListener('touchend', onUp);
+
+  /* ---- gentle parallax on pointer, desktop only ---- */
+  if (!reduce && window.matchMedia('(hover: hover)').matches) {
+    stage.addEventListener('mousemove', function (e) {
+      if (dragging) return;
+      var r = stage.getBoundingClientRect();
+      var dx = (e.clientX - r.left) / r.width - 0.5;
+      tower.style.setProperty('--drift', (dx * 9).toFixed(2) + 'deg');
+    });
+    stage.addEventListener('mouseleave', function () {
+      tower.style.setProperty('--drift', '0deg');
+    });
+  }
+
+  /* ---- controls ---- */
+  range.addEventListener('input', function () { setPhase(+range.value, true); });
+  document.getElementById('prevBtn').addEventListener('click', function () { setPhase(phase - 1, true); });
+  document.getElementById('nextBtn').addEventListener('click', function () { setPhase(phase + 1, true); });
+
+  stage.addEventListener('keydown', function (e) {
+    if (e.key === 'ArrowRight') { setPhase(phase + 1, true); e.preventDefault(); }
+    if (e.key === 'ArrowLeft')  { setPhase(phase - 1, true); e.preventDefault(); }
+  });
+
+  /* ---- build itself once, when scrolled into view ---- */
+  var timer = null;
+  function stopAuto() { if (timer) { clearInterval(timer); timer = null; } }
+
+  function startAuto() {
+    if (reduce || timer) return;
+    timer = setInterval(function () {
+      if (phase >= PHASES.length) { stopAuto(); return; }
+      setPhase(phase + 1);
+    }, 900);
+  }
+
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) { startAuto(); io.disconnect(); }
+      });
+    }, { threshold: 0.35 });
+    io.observe(rig);
+  } else {
+    setPhase(PHASES.length);
+  }
+
+  /* ---- init ---- */
+  applyView();
+  setPhase(reduce ? PHASES.length : 1);
+  if (reduce) stopAuto();
+})();
+</script>
+
 </body>
 </html>
