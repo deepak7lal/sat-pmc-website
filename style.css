@@ -623,22 +623,57 @@ h3 { font-size: clamp(1.0625rem, 0.95rem + 0.5vw, 1.3rem); letter-spacing: -0.01
 }
 .section--dark .tags li { background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.13); }
 
-/* Clients logo strip */
-.clients {
+/* Project gallery */
+.gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr));
   gap: 1px;
   background: var(--rule);
   border: 1px solid var(--rule);
+  margin-top: 2.5rem;
 }
-.clients > div {
+.shot {
+  margin: 0;
   background: var(--white);
-  padding: 1.4rem 1rem;
-  display: grid;
-  place-items: center;
-  min-height: 96px;
+  position: relative;
+  overflow: hidden;
 }
-.clients img { max-height: 52px; width: auto; object-fit: contain; }
+.shot--wide { grid-column: span 2; }
+.shot img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.shot:hover img { transform: scale(1.035); }
+.shot figcaption {
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  padding: 1.5rem 0.95rem 0.7rem;
+  background: linear-gradient(to top, rgba(10,12,14,0.86), transparent);
+  color: #fff;
+  font-family: var(--ff-mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.07em;
+}
+.shot figcaption b {
+  display: block;
+  font-family: var(--ff-display);
+  font-weight: 700;
+  font-size: 0.94rem;
+  letter-spacing: -0.015em;
+  margin-bottom: 0.15rem;
+}
+
+/* Client logo panel */
+.clients-panel {
+  border: 1px solid var(--rule);
+  background: #fff;
+  padding: clamp(0.75rem, 2vw, 1.5rem);
+}
+.clients-panel img { width: 100%; height: auto; }
 
 /* ============================================================
    Service pages
@@ -957,6 +992,8 @@ h3 { font-size: clamp(1.0625rem, 0.95rem + 0.5vw, 1.3rem); letter-spacing: -0.01
   .nav-toggle span::after  { position: absolute; top: 6px; }
 
   .topbar__cta { display: none; }
+
+  .shot--wide { grid-column: span 1; }
 
   /* Service pages stack */
   .svc { grid-template-columns: 1fr; }
