@@ -1,40 +1,21 @@
-# SAT PMC — Website
+# SAT PMC website
 
-Marketing site for SAT PMC, a project management consultancy in Kochi, Kerala.
+Static website for SAT Project Management Consultants, based in Kochi and serving projects across Kerala.
 
-## Sections
+## Hosting
 
-- **Lifecycle** — how the practice works through a project, stage by stage
-- **Capability** — "Four things we are asked for most"
-- **Team** — "You get the directors, not a junior"
-- **Projects** — completed work
-- **FAQ**
-- **Contact** — "Tell us about the project"
+Cloudflare Pages serves the files from the repository root. No dependency installation or build command is required. The production branch is `main`.
 
-## How it is built
+## Content
 
-Static HTML and CSS in a single `index.html`, with images alongside it. No
-framework, no build step, no JavaScript dependencies. A brochure site loads
-faster and breaks less when it is served as files, and there is nothing here
-that needs more.
+The site includes an interactive architectural model, services, selected projects, the full project register, clients, team profiles, six service guides and the updated company profile PDF. Existing service URLs are preserved. `/project-register` redirects to the register below the project photos.
 
-## Running it
+## Enquiries
 
-```bash
-git clone https://github.com/deepak7lal/website.git
-cd website
-python -m http.server 8000
-```
+The enquiry form uses the existing Formspree endpoint `https://formspree.io/f/xoeabkaa`. It includes submission feedback, a honeypot and native submission without JavaScript. Local tests mocked provider responses; actual inbox delivery still requires a real test enquiry and confirmation of receipt.
 
-Then visit http://localhost:8000. Opening `index.html` directly works too.
+## Search
 
-## Deploying
+The site includes page titles, descriptions, canonical URLs, structured data, robots.txt and sitemap.xml. Submit `https://satpmc.com/sitemap.xml` in Google Search Console after publication. Search visibility and rankings are not guaranteed.
 
-Any static host serves it as-is: GitHub Pages, Netlify, Cloudflare Pages, or a
-plain web server. No configuration beyond pointing the host at the repository
-root.
-
-## Related
-
-The consultancy's internal project tracker lives in
-[SAT-PMC](https://github.com/deepak7lal/SAT-PMC).
+The previous website remains available in Git history for rollback.
